@@ -36,7 +36,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cms.apps.CmsConfig',  # Added
+<<<<<<< HEAD
+    'cms.apps.CmsConfig', #Added
+=======
+    'cms.apps.CmsConfig',
+>>>>>>> 2ab0c59f822fbfecede7418ab6e602fe542c971c
+
+
 ]
 
 MIDDLEWARE = [
@@ -122,5 +128,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+<<<<<<< HEAD
+# Custom
+=======
+>>>>>>> 2ab0c59f822fbfecede7418ab6e602fe542c971c
 
 AUTH_USER_MODEL = 'cms.User'
