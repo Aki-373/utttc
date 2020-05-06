@@ -1,10 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-<<<<<<< HEAD
 
-=======
->>>>>>> 2ab0c59f822fbfecede7418ab6e602fe542c971c
 from django import forms
 from django.contrib import admin
 from django.contrib.auth.models import Group
@@ -93,8 +90,5 @@ class UserAdmin(BaseUserAdmin):
 admin.site.register(User, UserAdmin)
 # ... and, since we're not using Django's built-in permissions,
 # unregister the Group model from admin.
-<<<<<<< HEAD
+
 admin.site.unregister(Group)
-=======
-admin.site.unregister(Group)
->>>>>>> 2ab0c59f822fbfecede7418ab6e602fe542c971c
