@@ -1,7 +1,10 @@
 from django.db import models
 
 # Create your models here.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2ab0c59f822fbfecede7418ab6e602fe542c971c
 from django.contrib.auth.base_user import (
     AbstractBaseUser, BaseUserManager,
 )
@@ -107,4 +110,8 @@ class AbstractUser(AbstractBaseUser, PermissionsMixin):
 
 class User(AbstractUser):
     class Meta(AbstractUser.Meta):
+<<<<<<< HEAD
         swappable = "AUTH_USER_MODEL"
+=======
+        swappable = "AUTH_USER_MODEL"
+>>>>>>> 2ab0c59f822fbfecede7418ab6e602fe542c971c
