@@ -25,7 +25,7 @@ SECRET_KEY = ')&au7y(pwx0xuzlf*6%b)!3k9*a=fg$vwm-b^j7r!h9=jb0n@8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0']
 
 
 # Application definition
@@ -37,11 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
-    'cms.apps.CmsConfig', #Added
-=======
-    'cms.apps.CmsConfig',
->>>>>>> 2ab0c59f822fbfecede7418ab6e602fe542c971c
 ]
 
 MIDDLEWARE = [
@@ -128,8 +123,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-<<<<<<< HEAD
-# Custom
-=======
->>>>>>> 2ab0c59f822fbfecede7418ab6e602fe542c971c
 AUTH_USER_MODEL = 'cms.User'
